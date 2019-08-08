@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		378E9E9F9DF02AB77BEC933C /* Pods_KameshMeditation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F10170DCE3FA0778A029C09 /* Pods_KameshMeditation.framework */; };
+		84D8A2EC22FACBDA00B1D61B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D8A2EB22FACBDA00B1D61B /* AppDelegate.swift */; };
+		84D8A2F122FACBDA00B1D61B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D8A2EF22FACBDA00B1D61B /* Main.storyboard */; };
+		84D8A2F322FACBDC00B1D61B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D8A2F222FACBDC00B1D61B /* Assets.xcassets */; };
+		84D8A2F622FACBDC00B1D61B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D8A2F422FACBDC00B1D61B /* LaunchScreen.storyboard */; };
+		84D8A30222FAD59100B1D61B /* LaunchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D8A30122FAD59100B1D61B /* LaunchVC.swift */; };
+		84D8A30522FAD67100B1D61B /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 84D8A30422FAD67100B1D61B /* loading.json */; };
+		84D8A30722FAD71500B1D61B /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D8A30622FAD71500B1D61B /* Loader.swift */; };
+		84D8A30922FADDAC00B1D61B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84D8A30822FADDAC00B1D61B /* GoogleService-Info.plist */; };
+		84D8A30B22FAE21D00B1D61B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D8A30A22FAE21D00B1D61B /* LoginVC.swift */; };
+		84D8A30D22FAE69400B1D61B /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D8A30C22FAE69400B1D61B /* Alert.swift */; };
+		84D8A30F22FAE6D900B1D61B /* GeneralVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D8A30E22FAE6D900B1D61B /* GeneralVC.swift */; };
+		84D8A31122FAEAE400B1D61B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D8A31022FAEAE400B1D61B /* Constant.swift */; };
+		84D8A31422FAEB0700B1D61B /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D8A31322FAEB0700B1D61B /* LoginVM.swift */; };
+		84D8A31622FAED2000B1D61B /* ViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D8A31522FAED2000B1D61B /* ViewDesign.swift */; };
+		84D8A31822FAEFEA00B1D61B /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D8A31722FAEFEA00B1D61B /* MainVC.swift */; };
+		84D8A31A22FAF08E00B1D61B /* Datamanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D8A31922FAF08E00B1D61B /* Datamanager.swift */; };
+		84D8A31D22FAF28100B1D61B /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D8A31C22FAF28100B1D61B /* MainCollectionViewCell.swift */; };
+		84D8A31F22FAF2F300B1D61B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D8A31E22FAF2F300B1D61B /* Category.swift */; };
+		84D8A32122FAF6DE00B1D61B /* NavigationDesignController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D8A32022FAF6DE00B1D61B /* NavigationDesignController.swift */; };
+		84D8A32322FB005500B1D61B /* FirestoreVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D8A32222FB005500B1D61B /* FirestoreVM.swift */; };
+		84D8A32522FB01E600B1D61B /* MusicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D8A32422FB01E600B1D61B /* MusicVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F10170DCE3FA0778A029C09 /* Pods_KameshMeditation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KameshMeditation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		689FC510AC2E4B4315F495D7 /* Pods-KameshMeditation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KameshMeditation.release.xcconfig"; path = "Target Support Files/Pods-KameshMeditation/Pods-KameshMeditation.release.xcconfig"; sourceTree = "<group>"; };
+		84D8A2E822FACBDA00B1D61B /* KameshMeditation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KameshMeditation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D8A2EB22FACBDA00B1D61B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84D8A2F022FACBDA00B1D61B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84D8A2F222FACBDC00B1D61B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84D8A2F522FACBDC00B1D61B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84D8A2F722FACBDC00B1D61B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D8A30122FAD59100B1D61B /* LaunchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchVC.swift; sourceTree = "<group>"; };
+		84D8A30422FAD67100B1D61B /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		84D8A30622FAD71500B1D61B /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		84D8A30822FADDAC00B1D61B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84D8A30A22FAE21D00B1D61B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		84D8A30C22FAE69400B1D61B /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		84D8A30E22FAE6D900B1D61B /* GeneralVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralVC.swift; sourceTree = "<group>"; };
+		84D8A31022FAEAE400B1D61B /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		84D8A31322FAEB0700B1D61B /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
+		84D8A31522FAED2000B1D61B /* ViewDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDesign.swift; sourceTree = "<group>"; };
+		84D8A31722FAEFEA00B1D61B /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		84D8A31922FAF08E00B1D61B /* Datamanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datamanager.swift; sourceTree = "<group>"; };
+		84D8A31C22FAF28100B1D61B /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		84D8A31E22FAF2F300B1D61B /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		84D8A32022FAF6DE00B1D61B /* NavigationDesignController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDesignController.swift; sourceTree = "<group>"; };
+		84D8A32222FB005500B1D61B /* FirestoreVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreVM.swift; sourceTree = "<group>"; };
+		84D8A32422FB01E600B1D61B /* MusicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicVC.swift; sourceTree = "<group>"; };
+		84D8A32622FBEDAD00B1D61B /* KameshMeditation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KameshMeditation-Bridging-Header.h"; sourceTree = "<group>"; };
+		A9D75631495A50D4E6EB2D51 /* Pods-KameshMeditation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KameshMeditation.debug.xcconfig"; path = "Target Support Files/Pods-KameshMeditation/Pods-KameshMeditation.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D8A2E522FACBDA00B1D61B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378E9E9F9DF02AB77BEC933C /* Pods_KameshMeditation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BD1B0DAB1EC3E6B915C89A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F10170DCE3FA0778A029C09 /* Pods_KameshMeditation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AA04B1B68BB7900CD148F87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9D75631495A50D4E6EB2D51 /* Pods-KameshMeditation.debug.xcconfig */,
+				689FC510AC2E4B4315F495D7 /* Pods-KameshMeditation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		84D8A2DF22FACBDA00B1D61B = {
+			isa = PBXGroup;
+			children = (
+				84D8A2EA22FACBDA00B1D61B /* KameshMeditation */,
+				84D8A2E922FACBDA00B1D61B /* Products */,
+				4AA04B1B68BB7900CD148F87 /* Pods */,
+				0BD1B0DAB1EC3E6B915C89A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84D8A2E922FACBDA00B1D61B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D8A2E822FACBDA00B1D61B /* KameshMeditation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D8A2EA22FACBDA00B1D61B /* KameshMeditation */ = {
+			isa = PBXGroup;
+			children = (
+				84D8A30322FAD66700B1D61B /* Helper */,
+				84D8A2FD22FACC9900B1D61B /* Modal */,
+				84D8A2FE22FACC9E00B1D61B /* View */,
+				84D8A2FF22FACCA200B1D61B /* ViewModal */,
+				84D8A30022FACCA800B1D61B /* Controller */,
+				84D8A2EB22FACBDA00B1D61B /* AppDelegate.swift */,
+				84D8A2EF22FACBDA00B1D61B /* Main.storyboard */,
+				84D8A2F222FACBDC00B1D61B /* Assets.xcassets */,
+				84D8A2F422FACBDC00B1D61B /* LaunchScreen.storyboard */,
+				84D8A2F722FACBDC00B1D61B /* Info.plist */,
+			);
+			path = KameshMeditation;
+			sourceTree = "<group>";
+		};
+		84D8A2FD22FACC9900B1D61B /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				84D8A31922FAF08E00B1D61B /* Datamanager.swift */,
+				84D8A31E22FAF2F300B1D61B /* Category.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		84D8A2FE22FACC9E00B1D61B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84D8A30622FAD71500B1D61B /* Loader.swift */,
+				84D8A31522FAED2000B1D61B /* ViewDesign.swift */,
+				84D8A32022FAF6DE00B1D61B /* NavigationDesignController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84D8A2FF22FACCA200B1D61B /* ViewModal */ = {
+			isa = PBXGroup;
+			children = (
+				84D8A31322FAEB0700B1D61B /* LoginVM.swift */,
+				84D8A32222FB005500B1D61B /* FirestoreVM.swift */,
+			);
+			path = ViewModal;
+			sourceTree = "<group>";
+		};
+		84D8A30022FACCA800B1D61B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84D8A31B22FAF26F00B1D61B /* Cell */,
+				84D8A30122FAD59100B1D61B /* LaunchVC.swift */,
+				84D8A30A22FAE21D00B1D61B /* LoginVC.swift */,
+				84D8A31722FAEFEA00B1D61B /* MainVC.swift */,
+				84D8A32422FB01E600B1D61B /* MusicVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84D8A30322FAD66700B1D61B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				84D8A31222FAEAE800B1D61B /* Files */,
+				84D8A30C22FAE69400B1D61B /* Alert.swift */,
+				84D8A30E22FAE6D900B1D61B /* GeneralVC.swift */,
+				84D8A31022FAEAE400B1D61B /* Constant.swift */,
+				84D8A32622FBEDAD00B1D61B /* KameshMeditation-Bridging-Header.h */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		84D8A31222FAEAE800B1D61B /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				84D8A30822FADDAC00B1D61B /* GoogleService-Info.plist */,
+				84D8A30422FAD67100B1D61B /* loading.json */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		84D8A31B22FAF26F00B1D61B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				84D8A31C22FAF28100B1D61B /* MainCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D8A2E722FACBDA00B1D61B /* KameshMeditation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D8A2FA22FACBDC00B1D61B /* Build configuration list for PBXNativeTarget "KameshMeditation" */;
+			buildPhases = (
+				89988CD79DBB5FE72032F3EB /* [CP] Check Pods Manifest.lock */,
+				84D8A2E422FACBDA00B1D61B /* Sources */,
+				84D8A2E522FACBDA00B1D61B /* Frameworks */,
+				84D8A2E622FACBDA00B1D61B /* Resources */,
+				10D226A512E127EDAC1CDF26 /* [CP] Embed Pods Frameworks */,
+				C0AF9F27A52E65EA0695BC5C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KameshMeditation;
+			productName = KameshMeditation;
+			productReference = 84D8A2E822FACBDA00B1D61B /* KameshMeditation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D8A2E022FACBDA00B1D61B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = kameshiOS;
+				TargetAttributes = {
+					84D8A2E722FACBDA00B1D61B = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 84D8A2E322FACBDA00B1D61B /* Build configuration list for PBXProject "KameshMeditation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84D8A2DF22FACBDA00B1D61B;
+			productRefGroup = 84D8A2E922FACBDA00B1D61B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D8A2E722FACBDA00B1D61B /* KameshMeditation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D8A2E622FACBDA00B1D61B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D8A2F622FACBDC00B1D61B /* LaunchScreen.storyboard in Resources */,
+				84D8A2F322FACBDC00B1D61B /* Assets.xcassets in Resources */,
+				84D8A30922FADDAC00B1D61B /* GoogleService-Info.plist in Resources */,
+				84D8A30522FAD67100B1D61B /* loading.json in Resources */,
+				84D8A2F122FACBDA00B1D61B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10D226A512E127EDAC1CDF26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KameshMeditation/Pods-KameshMeditation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KameshMeditation/Pods-KameshMeditation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KameshMeditation/Pods-KameshMeditation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89988CD79DBB5FE72032F3EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KameshMeditation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0AF9F27A52E65EA0695BC5C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KameshMeditation/Pods-KameshMeditation-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KameshMeditation/Pods-KameshMeditation-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KameshMeditation/Pods-KameshMeditation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D8A2E422FACBDA00B1D61B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D8A32322FB005500B1D61B /* FirestoreVM.swift in Sources */,
+				84D8A31122FAEAE400B1D61B /* Constant.swift in Sources */,
+				84D8A32522FB01E600B1D61B /* MusicVC.swift in Sources */,
+				84D8A31822FAEFEA00B1D61B /* MainVC.swift in Sources */,
+				84D8A2EC22FACBDA00B1D61B /* AppDelegate.swift in Sources */,
+				84D8A30222FAD59100B1D61B /* LaunchVC.swift in Sources */,
+				84D8A30B22FAE21D00B1D61B /* LoginVC.swift in Sources */,
+				84D8A31422FAEB0700B1D61B /* LoginVM.swift in Sources */,
+				84D8A30F22FAE6D900B1D61B /* GeneralVC.swift in Sources */,
+				84D8A31D22FAF28100B1D61B /* MainCollectionViewCell.swift in Sources */,
+				84D8A30D22FAE69400B1D61B /* Alert.swift in Sources */,
+				84D8A31F22FAF2F300B1D61B /* Category.swift in Sources */,
+				84D8A31622FAED2000B1D61B /* ViewDesign.swift in Sources */,
+				84D8A30722FAD71500B1D61B /* Loader.swift in Sources */,
+				84D8A32122FAF6DE00B1D61B /* NavigationDesignController.swift in Sources */,
+				84D8A31A22FAF08E00B1D61B /* Datamanager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84D8A2EF22FACBDA00B1D61B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D8A2F022FACBDA00B1D61B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84D8A2F422FACBDC00B1D61B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D8A2F522FACBDC00B1D61B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84D8A2F822FACBDC00B1D61B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84D8A2F922FACBDC00B1D61B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D8A2FB22FACBDC00B1D61B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9D75631495A50D4E6EB2D51 /* Pods-KameshMeditation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJ5RAJ238Y;
+				INFOPLIST_FILE = KameshMeditation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kameshiOS.KameshMeditation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KameshMeditation/Helper/KameshMeditation-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84D8A2FC22FACBDC00B1D61B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689FC510AC2E4B4315F495D7 /* Pods-KameshMeditation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJ5RAJ238Y;
+				INFOPLIST_FILE = KameshMeditation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kameshiOS.KameshMeditation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KameshMeditation/Helper/KameshMeditation-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D8A2E322FACBDA00B1D61B /* Build configuration list for PBXProject "KameshMeditation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D8A2F822FACBDC00B1D61B /* Debug */,
+				84D8A2F922FACBDC00B1D61B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D8A2FA22FACBDC00B1D61B /* Build configuration list for PBXNativeTarget "KameshMeditation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D8A2FB22FACBDC00B1D61B /* Debug */,
+				84D8A2FC22FACBDC00B1D61B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84D8A2E022FACBDA00B1D61B /* Project object */;
+}
